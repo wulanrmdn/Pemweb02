@@ -25,7 +25,7 @@ class Hero
 
     }
 
-    // method untuk naik satu level
+    // method  naik satu level
     public function levelUp($number)
     {
         $this->level = $this->level + $number;

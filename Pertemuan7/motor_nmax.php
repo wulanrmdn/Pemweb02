@@ -21,7 +21,7 @@ class Motor
         return "Bensin berkurang sebesar : " . ($jarak / 30) . " liter";
     }
 }
-
+// method motor
 $motor1 = new Motor('NMax', 'Yamaha',  5, 200, 1000);
 echo "Nama Motor : " . $motor1->nama_motor . "<br/>";
 echo "Merk Motor: " . $motor1->merk . "<br/>";
